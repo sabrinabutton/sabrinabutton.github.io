@@ -21,6 +21,7 @@
   "description": "A portfolio site for Sabrina Button's work and experience",
   "main": "index.js",
   "author": "Sabrina Button (Github: sabrinabutton)",
+  "homepage": "https://sabrinabutton.github.io/",
   "license": "MIT",
   "browserslist": {
     "production": [
