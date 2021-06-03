@@ -40,7 +40,7 @@ export default function Home() {
         Queen's University as a Schulich Leader. I innovate with hopes of creating projects at the
         intersection of societal improvement and technological advancement.
       </div>
-      <h3>Email: sabrinarosebutton@gmail.com</h3>
+      <h3>Email: <a href="mailto:sabrinarosebutton@gmail.com">sabrinarosebutton@gmail.com</a></h3>
       <h3>Phone: (613)-807-9041</h3>
 
       <br />
