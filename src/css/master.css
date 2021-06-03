@@ -5,7 +5,7 @@ body {
 
   padding-left: 1em;
   text-align: center;
-  background-color: #a3c9a8;
+  background-color: #ffffff;
 }
 nav ul,
 footer ul {
@@ -34,7 +34,7 @@ nav a {
 }
 a {
   text-decoration: none;
-  color: #2e4d3f;
+  color: #1f271b;
 }
 a:hover {
   text-decoration: underline;
@@ -42,6 +42,7 @@ a:hover {
 h1 {
   font-size: 3em;
   font-family: "DM Serif Text", serif;
+                                                
   font-weight: 900;
   color: #1f271b;
 }
@@ -49,11 +50,12 @@ h2 {
   font-size: 2em;
   font-weight: 900;
   font-family: "DM Serif Text", serif;
+                                                
   color: #1f271b;
 }
 h3 {
-  font-size: 1em;
-  color: #2e4d3f;
+  font-size: 1.2em;
+  color: #1f271b;
 }
 .poster {
   width: 60%;
@@ -79,9 +81,9 @@ p {
   color: #333;
 }
 nav {
-  background-color: #a3c9a8;
+  background-color: #ffffff;
   padding: 1em 0em 1em 0em;
-
+z-index: 99;
   position: fixed;
   left: 0px;
   width: 100%;
@@ -95,7 +97,7 @@ footer {
   bottom: 0px;
   color: #2e4d3f;
   left: 0px;
-  background-color: #a3c9a8;
+  background-color: #ffffff;
 }
 
 ul.posts {
@@ -149,5 +151,10 @@ ul.posts li {
 .linkedinlink {
   position: absolute;
   right: 3em;
+  top: 1.5em;
+}
+.twtlink {
+  position: absolute;
+  right: 6em;
   top: 1.5em;
 }

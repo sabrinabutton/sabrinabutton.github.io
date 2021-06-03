@@ -34,10 +34,10 @@ export default function Home() {
         />
       </div>
       <div class="blurb">
-        Hi! I'm a high school student from Ottawa, Ontario interested in
+        Hi! I'm a student from Ottawa, Ontario interested in
         computer science, engineering, physics and emerging technologies. In the
-        coming fall, I plan to pursue an undergraduate degree in computer
-        engineering. I innovate with hopes of creating projects at the
+        coming fall, I plan to pursue an undergraduate degree in engineering at 
+        Queen's University as a Schulich Leader. I innovate with hopes of creating projects at the
         intersection of societal improvement and technological advancement.
       </div>
       <h3>Email: sabrinarosebutton@gmail.com</h3>
@@ -99,14 +99,14 @@ export default function Home() {
         </div>
       </div>
 
-      <Link to={"./projects"}>
+      {/* <Link to={"./projects"}>
         {" "}
         <motion.button whileHover={{ scale: 1.2 }} className="bestbuttonever">
           See my projects
         </motion.button>
-      </Link>
+      </Link> */}
 
-      <motion.h2
+      {/* <motion.h2
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 3 }}
@@ -128,7 +128,7 @@ export default function Home() {
             height="100em"
           />
           <h3>Front-End Development at Kinaxis [Summer 2019]</h3></div>
-      </div>
+      </div> */}
 
      
 
