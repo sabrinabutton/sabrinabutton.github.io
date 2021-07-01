@@ -13,7 +13,7 @@ export default function App() {
          <Route exact path="/" component={Home} /> 
          <Route exact path="/home" component={Home} /> 
          {/* <Route path="/projects" component={Projects}/> */}
-         <Route path="/features" component={Features}/>
+//          <Route path="/features" component={Features}/>
       </Switch>
     </body>
   );
