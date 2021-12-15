@@ -35,8 +35,8 @@ export default function Home() {
       </div>
       <div class="blurb">
         Hi! I'm a student from Ottawa, Ontario interested in
-        computer science, engineering, physics and emerging technologies. In the
-        coming fall, I plan to pursue an undergraduate degree in engineering at 
+        computer science, engineering, physics and emerging technologies. I am
+        currently pursuing an undergraduate degree in engineering at 
         Queen's University as a Schulich Leader. I innovate with hopes of creating projects at the
         intersection of societal improvement and technological advancement.
       </div>
@@ -61,15 +61,7 @@ export default function Home() {
           />
           <h3>Innovation</h3>
         </div>
-        <div>
-          <motion.img
-            whileHover={{ scale: 1.5 }}
-            src={mental}
-            alt="Mental Health Icon"
-            height="100em"
-          />
-          <h3>Mental Health Awareness</h3>
-        </div>
+        
         <div>
           <motion.img
             whileHover={{ scale: 1.5 }}
@@ -79,15 +71,7 @@ export default function Home() {
           />
           <h3>Sustainability</h3>
         </div>{" "}
-        <div>
-          <motion.img
-            whileHover={{ scale: 1.5 }}
-            src={woman}
-            alt="Woman Icon"
-            height="100em"
-          />
-          <h3>Women+ in STEM</h3>
-        </div>
+       
         <div>
           <motion.img
             whileHover={{ scale: 1.5 }}
