@@ -10,7 +10,7 @@ export default function Nav() {
     <div><nav>
       <motion.div whileHover={{fontSize: '35px'}} class='navtitle'>Sabrina Button<img class="logo" height="40" alt="logo" src={logo}/></motion.div>
       <ul>
-        <motion.li whileHover={{fontSize: '30px'}} ><Link to={"./home"}>HOME</Link></motion.li>
+        {/* <motion.li whileHover={{fontSize: '30px'}} ><Link to={"./home"}>HOME</Link></motion.li> */}
         {/* <motion.li whileHover={{fontSize: '30px'}} ><Link to={"./projects"}>PROJECTS</Link></motion.li> */}
 {/*<motion.li whileHover={{fontSize: '30px'}} ><Link to={"./features"}>FEATURES</Link></motion.li>*/}
         <motion.li whileHover={{scale: 1.2}} class="linkedinlink"><a target="_blank" href="https://www.linkedin.com/in/sabrinabutton/"><img height="35" alt="linkedin" src="https://www.iconninja.com/files/820/89/92/black-linkedin-icon.png"/></a></motion.li>
