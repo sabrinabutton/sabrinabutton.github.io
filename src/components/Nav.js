@@ -55,6 +55,9 @@ export default function Nav() {
             </div>
           </motion.li>
           <motion.li whileHover={{ fontSize: "20px" }}>
+            <a href="#skills">SKILLS</a>
+          </motion.li>
+          <motion.li whileHover={{ fontSize: "20px" }}>
             <a href="#resume">RESUME</a>
           </motion.li>
           <motion.li whileHover={{ scale: 1.2 }} class="linkedinlink">

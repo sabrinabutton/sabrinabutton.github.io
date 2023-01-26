@@ -192,7 +192,12 @@ ul.posts li {
   font-size: 30px;
 }
 
-
+.skills_list{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
 
 .dropdown {
   position: relative;
