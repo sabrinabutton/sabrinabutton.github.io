@@ -21,9 +21,20 @@ export default function Nav() {
             <div class="dropdown">
               <a href="#projects">PROJECTS</a>
               <div class="dropdown-content">
+                <br />
+                <div>
+                  <strong>
+                    <u>Engineering</u>
+                  </strong>
+                </div>
                 <a href="#model-auto-loader">Model Autonomous Mining Loader</a>
                 <a href="#antenna-arm">Antenna Integrated Robotic Arm</a>
                 <a href="#payload-testing">Payload Testing Apparatus</a>
+                <div>
+                  <strong>
+                    <u>Hackathons</u>
+                  </strong>
+                </div>
                 <a href="#recoin">ReCoin | UofT Hacks IX, Third Place</a>
                 <a href="#markit">Markit | QSS 2022, Second Place</a>
               </div>
