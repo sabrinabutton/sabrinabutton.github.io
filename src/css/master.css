@@ -218,6 +218,6 @@ ul.posts li {
   display: block;
 }
 
-.dropdown-content a:hover {border-radius: 10px; background-color: rgb(218, 227, 212);}
+.dropdown-content a:hover {border-radius: 10px; background-color: #d6eae5;}
 
 .dropdown:hover .dropdown-content {display: block;}
