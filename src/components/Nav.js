@@ -30,6 +30,7 @@ export default function Nav() {
                 <a href="#model-auto-loader">Model Autonomous Mining Loader</a>
                 <a href="#antenna-arm">Antenna Integrated Robotic Arm</a>
                 <a href="#payload-testing">Payload Testing Apparatus</a>
+                <a href="#game-console">8-Bit Arduino LEGO Game Console</a>
                 <div>
                   <strong>
                     <u>Hackathons</u>
