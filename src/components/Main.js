@@ -46,23 +46,21 @@ export default function Home() {
       </div>
       <div class="blurb">
         <ReactTextCollapse options={TEXT_COLLAPSE_OPTIONS}>
-          Hi! I'm Sabrina. I'm a Mechatronics and Robotics Engineering student
-          with a passion for AI, automation, and sustainable technology. I'm
-          experienced in automation, software-hardware testing and integration,
-          and control systems through three internships. I aim to create
-          impactful projects at the intersection of societal improvement and
-          technological advancement.
+          Hello, I'm Sabrina—a motivated third-year Mechatronics and Robotics
+          Engineering student at Queen's University. I’m passionate about
+          artificial intelligence, robotics and sustainable technology. I’m
+          impact-driven, value feedback, and love to learn.
           <br />
           <br />
-          I'm particularly grateful to have spent the past few years developing
-          my skills, working on fascinating projects with incredible teams, and
-          organizing new ways to help students like myself get involved. I'd be
-          more than happy to chat about my experiences or anything else that's
-          on your mind. Feel free to reach out!
+          This website showcases a curated selection of my project portfolio,
+          encompassing both collaborative endeavours and personal initiatives —
+          from startup pitches to the development of autonomous robots.
           <br />
           <br />
-          Some projects I've pursued over the past couple of years can be found
-          below. Check them out!
+          If any aspect of this portfolio piques your interest, please do not
+          hesitate to reach out. I am always enthusiastic to engage in
+          discussions spanning the realms of robotics, technology, or any other
+          topic that captures your curiosity.
         </ReactTextCollapse>
       </div>
       <br />
@@ -93,6 +91,7 @@ export default function Home() {
               tech={project.tech}
               more={project.more}
               refr={project.ref}
+              project_url={project.project_url}
             />
             <br />
           </div>
@@ -132,7 +131,7 @@ export default function Home() {
       stuck home from school, I don't have the energy (or time, I'm missing 7
       lectures) to fix it. If you're using this site for inspiration or code
       snippits -> DON'T COPY THIS BIT! It's terrible practice. (ALSO: if 
-      you're a prospective employer, I'm sorry :( I wouldn't do this to you.) 
+      you're a prospective employer, I'm sorry :( I wouldn't do this to you. 
       Instead, go for the reusable component code I did for my projects and 
       work experience. Thanks for creeping, happy coding :)
       */}
@@ -319,7 +318,7 @@ export default function Home() {
         <a href="https://www.office.com/" target="_blank" rel="noreferrer">
           {" "}
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
+            src="https://seeklogo.com/images/M/microsoft-office-logo-8B0EF31E09-seeklogo.com.png"
             alt="Microsoft Office"
             width="40"
             height="40"
@@ -360,19 +359,6 @@ export default function Home() {
             height="60"
           />{" "}
         </a>
-        <a
-          href="https://www.altium.com/altium-designer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {" "}
-          <img
-            src="http://www.circuits-smd.com/img/AD_FirstScreen_X2_black.png"
-            alt="Altium"
-            width="80"
-            height="40"
-          />{" "}
-        </a>
       </div>
       <div class="blurb">
         <motion.h2
@@ -408,7 +394,7 @@ export default function Home() {
       </div>
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1KAjrbKjWzqZqXmlqUHhxgtAo3GseYxZq/view?usp=sharing"
+        href="https://drive.google.com/file/d/1g2OVjkxtuVgMRxHnWEV-fLa_sANLzdi6/view?usp=sharing"
       >
         <motion.button
           whileHover={{ scale: 1.2 }}
@@ -418,6 +404,10 @@ export default function Home() {
           Resumé PDF
         </motion.button>
       </a>
+      <footer>
+        {" "}
+        This website was built using React JS by Sabrina Button, 2020-2023{" "}
+      </footer>
     </div>
   );
 }

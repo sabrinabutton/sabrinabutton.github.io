@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import "../css/master.css";
 import ReactTextCollapse from "react-text-collapse/dist/ReactTextCollapse";
 import { TEXT_COLLAPSE_OPTIONS } from "../App";
+import ProjectLink from "./ProjectLink";
 
 export default function Project(props) {
   var TEXT_C_O = Object.assign({}, TEXT_COLLAPSE_OPTIONS);
@@ -40,7 +41,7 @@ export default function Project(props) {
 
         {props.imgs.map((img) => (
           <div>
-            <img src={img.src} width={img.size || "500px"} />
+            <img src={img.src} height={img.height || "300 px"} />
           </div>
         ))}
       </div>
@@ -86,6 +87,18 @@ export default function Project(props) {
       </div>
       <br />
       <br />
+      {props.project_url != undefined ? (
+        <div class="blurb">
+          <ProjectLink
+            creator={props.project_url.creator}
+            repository={props.project_url.repo}
+            url={props.project_url.url}
+          />
+        </div>
+      ) : (
+        <div></div>
+      )}
+
       <br />
       <br />
     </div>
