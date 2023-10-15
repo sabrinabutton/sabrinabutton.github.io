@@ -27,9 +27,13 @@ export default function Nav() {
                     <u>Engineering</u>
                   </strong>
                 </div>
+                <a href="#otter-usv">Otter USV R&D</a>
+                <a href="#lynx-rover">CO2 Monitoring Lynx Rover</a>
                 <a href="#model-auto-loader">Model Autonomous Mining Loader</a>
                 <a href="#antenna-arm">Antenna Integrated Robotic Arm</a>
+
                 <a href="#payload-testing">Payload Testing Apparatus</a>
+                <a href="#covid-ml">Pneumonia/Covid Recognition ML</a>
                 <a href="#game-console">8-Bit Arduino LEGO Game Console</a>
                 <div>
                   <strong>
