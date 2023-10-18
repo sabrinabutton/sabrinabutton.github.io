@@ -1,6 +1,6 @@
 export const project_info = [
   {
-    size: 200,
+    size: 800,
     title: "Otter USV R&D",
     ref: "otter-usv",
     blurb: [
@@ -24,7 +24,7 @@ export const project_info = [
     more: true,
   },
   {
-    size: 200,
+    size: 250,
     title: "CO2 Monitoring Lynx Rover",
     ref: "lynx-rover",
     blurb: [
@@ -81,7 +81,7 @@ export const project_info = [
     more: false,
   },
   {
-    size: 500,
+    size: 400,
     title: "Payload Testing Apparatus, Queen's Space Engineering Team",
     ref: "payload-testing",
     blurb: [
@@ -116,7 +116,7 @@ export const project_info = [
     },
   },
   {
-    size: 400,
+    size: 450,
     title: "Arduino LEGO Game Console",
     ref: "game-console",
     blurb: [
@@ -134,7 +134,7 @@ export const project_info = [
     more: true,
   },
   {
-    size: 500,
+    size: 250,
     title: "ReCoin, UofT Hacks IX 3rd Overall Winner",
     ref: "recoin",
     blurb: [
@@ -162,7 +162,7 @@ export const project_info = [
     },
   },
   {
-    size: 500,
+    size: 200,
     title: "Markit, Queen's Startup Summit 2nd Place Overall Winner",
     ref: "markit",
     blurb: [

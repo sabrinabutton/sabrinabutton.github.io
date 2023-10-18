@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import Home from "./components/Main";
 import Project from "./components/Project";
 import Features from "./components/Features";
+import "./css/master.css";
+
 export const TEXT_COLLAPSE_OPTIONS = {
   collapse: true, // default state when component rendered
   collapseText: "... show more", // text to show when collapsed
@@ -12,7 +14,7 @@ export const TEXT_COLLAPSE_OPTIONS = {
   maxHeight: 450, // expanded to
   textStyle: {
     // pass the css for the collapseText and expandText here
-    color: "green",
+    color: "rgb(19, 100, 53)",
     cursor: "pointer",
   },
 };

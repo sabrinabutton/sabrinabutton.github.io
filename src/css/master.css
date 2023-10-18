@@ -1,6 +1,6 @@
 body {
   margin: 60px auto;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   height: auto;
   font-weight: 100;
   padding-left: 1em;
@@ -9,9 +9,8 @@ body {
 }
 nav ul,
 footer ul {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   list-style: none;
-  
 }
 
 .navtitle {
@@ -43,7 +42,7 @@ a:hover {
 h1 {
   font-size: 3em;
   font-family: "DM Serif Text", serif;
-                   margin-bottom: 0em;                             
+  margin-bottom: 0em;
   font-weight: 400;
   color: #063831;
 }
@@ -51,13 +50,12 @@ h2 {
   font-size: 1.5em;
   font-weight: 400;
   font-family: "DM Serif Text", serif;
-                                                
-  color: #063831
+
+  color: #063831;
 }
 h3 {
   font-size: 1em;
   color: #1f271b;
- 
 }
 .poster {
   width: 60%;
@@ -66,9 +64,9 @@ h3 {
   padding-top: 1em;
 }
 
-.skills{
+.skills {
   width: 50%;
-  color:rgb(19, 100, 53);
+  color: rgb(19, 100, 53);
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -94,14 +92,14 @@ p {
 nav {
   background-color: #ffffff;
   padding: 1em 0em 1em 0em;
-z-index: 99;
+  z-index: 99;
   position: fixed;
   left: 0px;
   width: 100%;
   top: 0px;
 }
 
-.project_img{
+.project_img {
   width: 400px;
 }
 
@@ -138,7 +136,7 @@ ul.posts li {
   margin-right: auto;
 }
 
-.left{
+.left {
   text-align: left;
 }
 
@@ -162,9 +160,8 @@ ul.posts li {
   font-family: "DM Serif Text", serif;
 }
 
-.exp{
-    width: 50%;
-  
+.exp {
+  width: 50%;
 }
 
 .linkedinlink {
@@ -172,7 +169,6 @@ ul.posts li {
   right: 3em;
   top: 1.5em;
 }
-
 
 .flex-container {
   display: flex;
@@ -183,7 +179,6 @@ ul.posts li {
 }
 
 .flex-container > div {
-  
   margin: 10px;
   text-align: center;
   line-height: 75px;
@@ -192,7 +187,7 @@ ul.posts li {
   font-size: 30px;
 }
 
-.skills_list{
+.skills_list {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -202,7 +197,6 @@ ul.posts li {
 .dropdown {
   position: relative;
   display: inline-block;
-  
 }
 
 .dropdown-content {
@@ -210,7 +204,7 @@ ul.posts li {
   position: absolute;
   background-color: #ffffff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
   font-size: 12px;
@@ -223,6 +217,11 @@ ul.posts li {
   display: block;
 }
 
-.dropdown-content a:hover {border-radius: 10px; background-color: #d6eae5;}
+.dropdown-content a:hover {
+  border-radius: 10px;
+  background-color: #d6eae5;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

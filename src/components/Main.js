@@ -13,6 +13,8 @@ export default function Home() {
   var TEXT_C_O = TEXT_COLLAPSE_OPTIONS;
   TEXT_C_O.minHeight = 80;
   TEXT_C_O.maxHeight = 300;
+  var TEXT_UNCOLLAPSE = TEXT_COLLAPSE_OPTIONS;
+  TEXT_UNCOLLAPSE.collapse = false;
   return (
     <div class="container">
       <div class="blurb">
@@ -45,7 +47,7 @@ export default function Home() {
         />
       </div>
       <div class="blurb">
-        <ReactTextCollapse options={TEXT_COLLAPSE_OPTIONS}>
+        <ReactTextCollapse options={TEXT_UNCOLLAPSE}>
           Hello, I'm Sabrina—a motivated third-year Mechatronics and Robotics
           Engineering student at Queen's University. I’m passionate about
           artificial intelligence, robotics and sustainable technology. I’m

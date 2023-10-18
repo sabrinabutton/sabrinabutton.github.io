@@ -9,10 +9,14 @@ const StyledDiv = styled.div`
   text-align: center;
   margin: 10px;
   color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 8px;
 `;
 
 const Reponame = styled.div`
   padding-left: 10px;
+  padding-right: 10px;
   margin: 5px;
   text-align: center;
 `;
