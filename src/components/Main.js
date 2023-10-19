@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import "../css/master.css";
 import ReactTextCollapse from "react-text-collapse/dist/ReactTextCollapse";
 import { TEXT_COLLAPSE_OPTIONS } from "../App";
-import { project_info, work_info } from "./constants";
+import { project_info, work_info, headers } from "./constants";
 
 export default function Home() {
   var TEXT_C_O = TEXT_COLLAPSE_OPTIONS;
@@ -78,27 +78,48 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 3 }}
       >
-        Project Porfolio
+        Project Porfolio ↓
       </motion.h1>
+      <br />
+      <br />
+      <br />
       <div>
-        {project_info.map((project) => (
-          <div>
-            <Project
-              size={project.size}
-              title={project.title}
-              blurb={project.blurb}
-              imgs={project.imgs}
-              embed={project.embed}
-              soft={project.soft_skills}
-              tech={project.tech}
-              more={project.more}
-              refr={project.ref}
-              project_url={project.project_url}
-            />
-            <br />
-          </div>
-        ))}
+        {headers.map(
+          (
+            header // show all projects with this header
+          ) => (
+            <div>
+              <motion.h2
+                id={header}
+                initial={{ opacity: 0, fontSize: "40px", fontStyle: "italic" }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3 }}
+              >
+                {header}
+              </motion.h2>
+              {project_info.map((project) => (
+                <div>
+                  {project.header === header ? (
+                    <Project
+                      size={project.size}
+                      title={project.title}
+                      blurb={project.blurb}
+                      imgs={project.imgs}
+                      embed={project.embed}
+                      soft={project.soft_skills}
+                      tech={project.tech}
+                      more={project.more}
+                      refr={project.ref}
+                      project_url={project.project_url}
+                    />
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          )
+        )}
       </div>
+
       <br id="work" />
       <br />
       <motion.h1

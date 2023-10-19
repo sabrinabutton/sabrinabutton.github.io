@@ -1,3 +1,11 @@
+export const headers = [
+  "Robotics",
+  "Machine Learning",
+  "Mechanical Design",
+  "Hackathons and Pitching",
+  "Hardware",
+];
+
 export const project_info = [
   {
     size: 800,
@@ -22,6 +30,7 @@ export const project_info = [
       "ROS2, C++, Python, LiDAR, 3D Printing, OpenCV, Git, Linux,  Particle Filters",
     ],
     more: true,
+    header: "Robotics",
   },
   {
     size: 250,
@@ -44,6 +53,7 @@ export const project_info = [
       repo: "ros_slam_heat_map",
       url: "https://github.com/sabrinabutton/ros_slam_heat_map",
     },
+    header: "Robotics",
   },
   {
     size: 100,
@@ -66,6 +76,7 @@ export const project_info = [
       repo: "autonomous_mining_loader",
       url: "https://github.com/sabrinabutton/autonomous_mining_loader",
     },
+    header: "Robotics",
   },
   {
     size: 100,
@@ -79,6 +90,7 @@ export const project_info = [
     soft_skills: ["Iterative design"],
     tech: ["Arduino, C, Mechanical-prototyping"],
     more: false,
+    header: "Robotics",
   },
   {
     size: 400,
@@ -96,6 +108,7 @@ export const project_info = [
     soft_skills: ["Teamwork"],
     tech: ["SolidWorks Protoyping, Mathematical Modeling"],
     more: true,
+    header: "Mechanical Design",
   },
   {
     size: 100,
@@ -114,6 +127,7 @@ export const project_info = [
       repo: "covid-pneumonia-ml",
       url: "https://github.com/sabrinabutton/covid-pneumonia-ml",
     },
+    header: "Machine Learning",
   },
   {
     size: 450,
@@ -127,11 +141,12 @@ export const project_info = [
     ],
     embed: [{ src: "https://www.youtube.com/embed/8fNFOhTsp44" }],
     imgs: [],
-    soft_skills: ["Creativity :)"],
+    soft_skills: ["Creative Design"],
     tech: [
       "Arduino, Physical Prototyping, I/O Systems, Custom LCD Character Creation",
     ],
     more: true,
+    header: "Hardware",
   },
   {
     size: 250,
@@ -160,6 +175,7 @@ export const project_info = [
       repo: "ReCoin",
       url: "https://github.com/sabrinabutton/ReCoin",
     },
+    header: "Hackathons and Pitching",
   },
   {
     size: 200,
@@ -183,6 +199,7 @@ export const project_info = [
     soft_skills: ["Teamwork, Agile development, Pitching"],
     tech: ["Near-Field Communications Chips, Figma"],
     more: true,
+    header: "Hackathons and Pitching",
   },
 ];
 

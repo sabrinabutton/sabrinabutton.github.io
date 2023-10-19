@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import "../css/master.css";
 import { motion } from "framer-motion";
+import { headers } from "./constants";
+import { project_info } from "./constants";
 
 export default function Nav() {
   return (
@@ -22,26 +24,25 @@ export default function Nav() {
               <a href="#projects">PROJECTS</a>
               <div class="dropdown-content">
                 <br />
-                <div>
-                  <strong>
-                    <u>Engineering</u>
-                  </strong>
-                </div>
-                <a href="#otter-usv">Otter USV R&D</a>
-                <a href="#lynx-rover">CO2 Monitoring Lynx Rover</a>
-                <a href="#model-auto-loader">Model Autonomous Mining Loader</a>
-                <a href="#antenna-arm">Antenna Integrated Robotic Arm</a>
 
-                <a href="#payload-testing">Payload Testing Apparatus</a>
-                <a href="#covid-ml">Pneumonia/Covid Recognition ML</a>
-                <a href="#game-console">8-Bit Arduino LEGO Game Console</a>
-                <div>
-                  <strong>
-                    <u>Hackathons</u>
-                  </strong>
-                </div>
-                <a href="#recoin">ReCoin | UofT Hacks IX, Third Place</a>
-                <a href="#markit">Markit | QSS 2022, Second Place</a>
+                {headers.map((header) => (
+                  <div>
+                    <strong>
+                      <u>{header}</u>
+                    </strong>
+                    <div>
+                      {project_info.map((project) => {
+                        if (project.header === header) {
+                          return (
+                            <a href={"#" + project.ref}>{project.title}</a>
+                          );
+                        } else {
+                          return null;
+                        }
+                      })}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </motion.li>
