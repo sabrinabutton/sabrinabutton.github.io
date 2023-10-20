@@ -48,7 +48,7 @@ export default function Home() {
       </div>
       <div class="blurb">
         <ReactTextCollapse options={TEXT_UNCOLLAPSE}>
-          Hello, I'm Sabrina—a motivated third-year Mechatronics and Robotics
+          Hello, I'm Sabrina — a motivated third-year Mechatronics and Robotics
           Engineering student at Queen's University. I’m passionate about
           artificial intelligence, robotics and sustainable technology. I’m
           impact-driven, value feedback, and love to learn.
