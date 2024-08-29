@@ -8,6 +8,7 @@ import "../css/master.css";
 import ReactTextCollapse from "react-text-collapse/dist/ReactTextCollapse";
 import { TEXT_COLLAPSE_OPTIONS } from "../App";
 import { project_info, work_info, headers } from "./constants";
+import { Button } from "react-scroll";
 
 export default function Home() {
   var TEXT_C_O = TEXT_COLLAPSE_OPTIONS;
@@ -17,6 +18,22 @@ export default function Home() {
   TEXT_UNCOLLAPSE.collapse = false;
   return (
     <div class="container">
+      <div class="red-block">
+        <br />
+        <br />
+        Hi there! This is my old personal site. Feel free to take a look, or
+        check out my new site,
+        <a target="_blank" href="https://sabrinabutton.ca">
+          <motion.button
+            whileHover={{ scale: 1.2 }}
+            className="notifbutton"
+            id="resume"
+          >
+            sabrinabutton.ca
+          </motion.button>
+        </a>
+      </div>
+
       <div class="blurb">
         <motion.h1
           initial={{ opacity: 0 }}

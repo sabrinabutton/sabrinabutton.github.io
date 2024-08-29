@@ -13,6 +13,14 @@ footer ul {
   list-style: none;
 }
 
+.red-block {
+  background-color: #063831;
+  color: #ffffff;
+  padding-bottom: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
 .navtitle {
   position: fixed;
   left: 1em;
@@ -156,8 +164,20 @@ ul.posts li {
   padding-right: 2em;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 500;
   font-family: "DM Serif Text", serif;
+}
+
+.notifbutton {
+  color: rgb(184, 226, 216);
+  background-color: #063831;
+  padding: 0em;
+  margin: 1em auto;
+  border: none;
+  margin-left: 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "Roboto Mono", monospace;
 }
 
 .exp {
